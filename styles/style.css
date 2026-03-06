@@ -131,11 +131,11 @@
 }
 
 .lots__card-list {
+  all: unset;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
   list-style: none;
-  all: unset;
 }
 
 .lots__card-list-item {
