@@ -3,16 +3,16 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 95px 50px 100px;
+  color: #000;
   font-size: 18px;
   line-height: 1.35;
-  color: #000;
   text-underline-offset: 3px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 32px;
   justify-content: flex-start;
+  gap: 32px;
   list-style-type: circle;
 }
 
@@ -30,10 +30,10 @@
 }
 
 .address {
-  max-width: 240px;
-  font-style: normal;
   display: flex;
   flex-direction: column;
+  max-width: 240px;
+  font-style: normal;
 }
 
 .header__address {
@@ -42,23 +42,23 @@
 
 .cover {
   position: relative;
-  min-height: 757px;
-  background-image: url(../images/cover.jpg);
-  background-repeat: no-repeat;
-  padding: 160px 50px 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 757px;
+  padding: 160px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
 }
 
 .cover__title {
   position: relative;
   z-index: 1;
+  color: #fff;
   font-size: 100px;
   line-height: 133px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: #fff;
 }
 
 .aligned-text {
@@ -83,13 +83,13 @@
 
 .cover__description {
   position: relative;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
+  color: #fff;
   font-size: 22px;
   text-transform: uppercase;
-  color: #fff;
 }
 
 .cover__description-text {
@@ -98,44 +98,44 @@
 }
 
 .bet-button {
-  all: unset;
-  cursor: pointer;
-  background: transparent;
-  padding: 12px 32px 11px 32px;
   border: 1px solid #fff;
+  padding: 12px 32px 11px 32px;
   text-align: center;
+  background: transparent;
+  cursor: pointer;
+  all: unset;
 }
 
 .overlay {
   position: absolute;
   inset: 0px;
-  background-size: cover;
+  opacity: 0.6;
   background: #000;
   background-position: center;
-  opacity: 0.6;
+  background-size: cover;
 }
 
 .lots {
-  padding: 180px 24px 0 24px;
   display: flex;
   flex-direction: column;
   gap: 26px;
+  padding: 180px 24px 0 24px;
 }
 
 .lots__heading {
+  padding-left: 40px;
+  color: #000;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  color: #000;
-  padding-left: 40px;
 }
 
 .lots__card-list {
-  all: unset;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
   list-style: none;
+  all: unset;
 }
 
 .lots__card-list-item {
@@ -150,11 +150,11 @@
 
 .card {
   position: relative;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
   padding: 48px 40px;
 }
 
@@ -180,22 +180,22 @@
 }
 
 .card__title {
+  z-index: 1;
+  color: #fff;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
-  text-transform: uppercase;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #fff;
-  z-index: 1;
+  text-transform: uppercase;
 }
 
 .card__text {
+  z-index: 1;
+  color: #fff;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
-  color: #fff;
-  z-index: 1;
 }
 
 .lots__look-more-link {
@@ -205,8 +205,8 @@
 
 .about {
   display: grid;
-  padding: 120px 24px 0px 24px;
   grid-template-columns: 334px 1fr;
+  padding: 120px 24px 0px 24px;
 }
 
 .about__column-left {
@@ -219,14 +219,14 @@
 }
 
 .about__logo {
-  width: 240px;
-  height: 240px;
-  background-color: #000;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 240px;
+  height: 240px;
   margin-top: 35px;
+  border-radius: 50%;
+  background-color: #000;
 }
 
 .about__logo-image {
@@ -234,22 +234,22 @@
 }
 
 .about__title {
+  margin-top: 136px;
+  margin-bottom: 100px;
+  color: #000;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  color: #000;
-  margin-top: 136px;
-  margin-bottom: 100px;
 }
 
 .about__text {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #000;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .footer {
@@ -268,9 +268,9 @@
 .footer__menu {
   display: flex;
   flex-direction: column;
+  color: #000;
   font-size: 18px;
   text-align: center;
-  color: #000;
 }
 
 .footer__menu-list {
@@ -278,9 +278,9 @@
 }
 
 .footer__menu-link {
+  color: #000;
   font-size: 18px;
   text-align: center;
-  color: #000;
 }
 
 .footer__menu-link_active {
